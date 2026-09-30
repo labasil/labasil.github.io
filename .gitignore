@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.sites-runtime/
+.env*
+!.env.example
+public/assets/*.mp4
+raw/
+qa/
+*.zip
+/public/assets/0*.jpg

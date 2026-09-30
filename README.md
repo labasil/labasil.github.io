@@ -47,4 +47,3 @@ Google Fonts provides Amiri and Tajawal; system serif/sans-serif fonts are fallb
 ## Delivery and verification
 
 See `QA.md` for actual browser checks and limitations. The GitHub repository contains source, brand assets, licence records, and the repeatable download/encoding setup. The local release folder also contains the prepared films and posters.
-
