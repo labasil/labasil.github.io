@@ -19,7 +19,7 @@ pnpm build
 pnpm preview
 ```
 
-The release output is `dist/`. Serve it over HTTP; opening `index.html` with `file://` will not load the module app correctly. The default base path is `/labasil/` for GitHub Pages. Set `SITE_BASE=/` when deploying at an origin root. No server, API keys, or environment secrets are required.
+The release output is `dist/`. Serve it over HTTP; opening `index.html` with `file://` will not load the module app correctly. Assets use relative paths so both an organization homepage and a project subdirectory work. Override `SITE_BASE` only when a fixed base is needed. No server, API keys, or environment secrets are required.
 
 ## Media setup and rights
 
@@ -36,7 +36,7 @@ Read `ASSET-LICENSES.md`, `FOOTAGE-MAP.md`, `RESEARCH.md`, and `MEDIA-REPORT.jso
 - Mobile and desktop both retain reversible video seeking, the opening flower, and botanical particles. Mobile uses fewer particles and adapted framing.
 - Reduced-motion preference shows posters, disables video seeking/particles, and removes extended pinned distances.
 - Add `?demo=1` to the URL. Space starts/pauses; R resets. Wheel/touch pauses. The central `CONFIG.demoSeconds` value in `src/main.js` defaults to 15 seconds.
-- The enquiry form creates a WhatsApp link using the number in the reference preview. It does not send a message or claim a booking. The visitor reviews and sends the message in WhatsApp. No enquiry data is saved by this site.
+- The enquiry form opens a prefilled WhatsApp draft at +966507871110. A fallback link and email draft to info@labasil.com are also offered. It does not send a message or claim a booking. The visitor reviews and sends the message in WhatsApp. No enquiry data is saved by this site.
 
 ## Brand and content
 
@@ -50,4 +50,4 @@ See `QA.md` for actual browser checks and limitations. The GitHub repository con
 
 ## GitHub Pages
 
-The workflow in `.github/workflows/pages.yml` installs dependencies, downloads and prepares the licensed media, builds the site, and deploys `dist/` to GitHub Pages. In Settings → Pages, select **GitHub Actions** as the source. Future pushes to `main` redeploy automatically. The site address is `https://mustafa963b.github.io/labasil/`. No paid hosting or additional domain is required.
+The workflow in `.github/workflows/pages.yml` installs dependencies, downloads and prepares the licensed media, builds the site, and deploys `dist/` to GitHub Pages. In Settings → Pages, select **GitHub Actions** as the source. Future pushes to `main` redeploy automatically. The site address is `https://labasil.github.io/`. No paid hosting or additional domain is required.

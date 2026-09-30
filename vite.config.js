@@ -1,2 +1,2 @@
 import {defineConfig} from 'vite';
-export default defineConfig({base:process.env.SITE_BASE || '/labasil/'});
+export default defineConfig({base:process.env.SITE_BASE || './'});
