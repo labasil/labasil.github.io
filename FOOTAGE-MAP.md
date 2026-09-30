@@ -2,7 +2,7 @@
 
 All five selected sources are 1920×1080 (16:9), H.264, approximately 24 fps, with no audio. Final masters are 1280×720 at 24 fps, all-I-frame H.264 with fast-start metadata, yuv420p, and no audio. Full probes and input/output bitrates are in MEDIA-REPORT.json. Source URLs, creators and 16 candidate records are in ASSETS.json.
 
-Each scene uses a tall outer section and a separate sticky 100svh stage. Progress 0–0.09 holds the first frame; 0.09–0.90 scrubs; 0.90–1 holds the final metadata-derived frame. The stage then releases. Desktop scroll distance below is the pinned portion, in viewport heights. Screens 600px and below and reduced-motion settings use normal-flow poster scenes.
+Each scene uses a tall outer section and a separate sticky 100svh stage. Progress 0–0.09 holds the first frame; 0.09–0.90 scrubs; 0.90–1 holds the final metadata-derived frame. The stage then releases. Desktop scroll distance below is the pinned portion, in viewport heights. Phones retain the full reversible films, with 90/180/110/110/140svh scroll ranges and fewer particles. Only reduced-motion settings use normal-flow poster scenes. Mobile bloom framing contains both flowers and the copy fades during their opening.
 
 | Scene / emotion | Local MP4 | Source ID | Source trim | Crop | Pinned range | Authored cues and layers | Exit |
 |---|---|---|---|---|---|---|---|
